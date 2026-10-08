@@ -1,0 +1,21 @@
+{
+  "name": "inventory-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack Inventory Management System with Next.js, Tailwind CSS, Node.js Express, and MongoDB",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "test:api": "node backend/test-api.js"
+  },
+  "keywords": [
+    "inventory",
+    "nextjs",
+    "express",
+    "mongodb",
+    "tailwind",
+    "full-stack"
+  ],
+  "author": "",
+  "license": "MIT"
+}
